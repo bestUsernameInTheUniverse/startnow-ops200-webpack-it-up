@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "test": "npm run build && mocha test/.setup.js test/*.spec.js --exit",
-    "start": "webpack && node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,28 +20,26 @@
   "homepage": "https://github.com/OriginCodeAcademy/startnow-ops200-webpack-workshop#readme",
   "dependencies": {
     "axios": "^0.16.1",
-    "babel-loader": "^7.1.1",
     "bluebird": "^3.5.0",
     "chai": "^3.5.0",
     "debug": "^2.6.8",
     "express": "^4.15.4",
-    "jquery": "^3.2.1",
+    "jquery": "^3.3.1",
     "json-loader": "^0.5.4",
     "lodash": "^4.15.0",
     "lodash-webpack-plugin": "^0.10.2",
     "morgan": "^1.8.2",
     "nightmare": "^2.10.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "serve-favicon": "^2.0.1",
     "webpack": "^3.5.4"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.6.1",
     "babel": "^6.3.26",
-    "babel-core": "^6.25.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
     "babel-preset-airbnb": "^1.0.1",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "babel-register": "^6.4.3",
@@ -60,7 +58,9 @@
     "less": "^2.7.1",
     "less-plugin-autoprefix": "^1.5.1",
     "mocha": "^3.0.2",
+    "react": "^15.6.2",
     "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.2",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0",
     "url-loader": "^0.5.9",
